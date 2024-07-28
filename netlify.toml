@@ -3,6 +3,9 @@
   functions="netlify/functions"
   publish="dist/angular-ssr/browser"
 
+[[plugins]]
+  package = "@netlify/angular-runtime"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
